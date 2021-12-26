@@ -1,0 +1,52 @@
+.keyboard {
+  overflow: hidden;
+}
+
+.keylist li:first-child {
+  border-radius: 5px 0 5px 5px;
+}
+
+.keylist li:last-child {
+  border-radius: 0 5px 5px 5px;
+}
+
+.white {
+  position: relative;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 11rem;
+  width: 3rem;
+  z-index: 1;
+  border: 1px solid gray;
+  border-radius: 0 0 4px 4px;
+  background: white;
+  color: black;
+  font-size: 1rem;
+}
+
+.black {
+  position: relative;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 7rem;
+  width: 1.75rem;
+  margin: 0 0 0 -1rem;
+  z-index: 2;
+  border: 1px solid black;
+  border-radius: 0 0 3px 3px;
+  background: black;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.shift {
+  margin: 0 0 0 -1rem;
+}
+
+.selected {
+  background-color: blue;
+}
